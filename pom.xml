@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <properties>
     <scala.version>2.12.1</scala.version>
+    <scalaz.version>7.3.0-M13</scalaz.version>
   </properties>
 
   <repositories>
@@ -30,6 +31,11 @@
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
       <version>${scala.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalaz</groupId>
+      <artifactId>scalaz-core_2.13.0-M1</artifactId>
+      <version>${scalaz.version}</version>
     </dependency>
   </dependencies>
 
