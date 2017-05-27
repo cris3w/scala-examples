@@ -19,8 +19,8 @@ object FoldingWithMonoids3 extends App {
     }
   }
 
-  def sum5[M[_]: FoldLeft, A: Monoid](xs: M[A]): A = {
-    val m = implicitly[Monoid[A]]
+  def sum5[M[_]: FoldLeft, A: MyMonoid](xs: M[A]): A = {
+    val m = implicitly[MyMonoid[A]]
     val fl = implicitly[FoldLeft[M]]
     fl.foldLeft(xs, m.zero, m.op)
   }

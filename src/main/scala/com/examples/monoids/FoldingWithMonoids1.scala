@@ -6,14 +6,14 @@ package com.examples.monoids
 object FoldingWithMonoids1 extends App {
 
 
-  def sum1[A](xs: List[A], m: Monoid[A]): A =
+  def sum1[A](xs: List[A], m: MyMonoid[A]): A =
     xs.foldLeft(m.zero)(m.op)
 
-  def sum2[A](xs: List[A])(implicit m: Monoid[A]): A =
+  def sum2[A](xs: List[A])(implicit m: MyMonoid[A]): A =
     xs.foldLeft(m.zero)(m.op)
 
-  def sum3[A: Monoid](xs: List[A]): A = {
-    val m = implicitly[Monoid[A]]
+  def sum3[A: MyMonoid](xs: List[A]): A = {
+    val m = implicitly[MyMonoid[A]]
     xs.foldLeft(m.zero)(m.op)
   }
 
