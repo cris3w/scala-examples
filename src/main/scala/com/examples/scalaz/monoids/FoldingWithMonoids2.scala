@@ -1,4 +1,4 @@
-package com.examples.monoids
+package com.examples.scalaz.monoids
 
 
 // examples of "learning Scalaz" tutorial
@@ -19,7 +19,7 @@ object FoldingWithMonoids2 extends App {
   }
 
 
-  import com.examples.monoids.PlusMonoid._
+  import com.examples.scalaz.monoids.PlusMonoid._
 
   println(sum4(List(1, 2, 3, 4))) // res: 10
 
