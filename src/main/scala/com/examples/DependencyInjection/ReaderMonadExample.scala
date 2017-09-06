@@ -1,4 +1,4 @@
-package com.examples.dependencyinjection
+package com.examples.DependencyInjection
 
 import scalaz.Reader
 

@@ -1,4 +1,4 @@
-package com.examples.scalaz.monoids
+package com.examples.ScalaZ.Monoids
 
 
 // Monoid typeclass

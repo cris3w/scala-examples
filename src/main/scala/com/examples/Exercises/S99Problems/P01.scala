@@ -1,4 +1,4 @@
-package com.examples.exercises.s99problems
+package com.examples.Exercises.S99Problems
 
 
 // P01 - Find the last element of a list

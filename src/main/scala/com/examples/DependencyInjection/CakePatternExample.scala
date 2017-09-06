@@ -1,4 +1,4 @@
-package com.examples.dependencyinjection
+package com.examples.DependencyInjection
 
 
 // example based on a Jonas Boner's post:

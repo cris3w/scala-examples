@@ -1,11 +1,11 @@
-package com.examples.scalaz.monoids
+package com.examples.ScalaZ.Monoids
 
 
 // examples of "learning Scalaz" tutorial
 
 object MonoidsOpsInjection extends App {
 
-  import com.examples.scalaz.monoids.PlusMonoid._
+  import com.examples.ScalaZ.Monoids.PlusMonoid._
 
 
   // sum two using Monoid

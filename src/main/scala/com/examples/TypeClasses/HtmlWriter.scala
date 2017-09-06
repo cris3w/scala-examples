@@ -1,4 +1,4 @@
-package com.examples.typeclasses
+package com.examples.TypeClasses
 
 
 // example of davegurnell's gist:
