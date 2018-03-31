@@ -1,8 +1,10 @@
-package com.examples.ScalaZ.Monads.MonadTransformers
+package com.examples.MonadTransformers
 
 import scala.concurrent.Future
 import scalaz.OptionT
 import scalaz.Scalaz._
+
+import scala.concurrent.ExecutionContext.Implicits.global
 
 
 // example of 47deg's blog:

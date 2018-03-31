@@ -1,4 +1,4 @@
-package com.examples.ScalaZ.Monads.MonadState
+package com.examples.MonadState
 
 import scalaz.State
 import scalaz.State._

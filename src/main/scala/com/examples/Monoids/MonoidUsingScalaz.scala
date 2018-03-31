@@ -1,7 +1,7 @@
-package com.examples.ScalaZ.Monoids
+package com.examples.Monoids
 
+import scalaz.Scalaz._
 import scalaz._
-import Scalaz._
 
 
 // examples of "learning Scalaz" tutorial

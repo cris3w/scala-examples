@@ -1,4 +1,4 @@
-package com.examples.ScalaZ.Monads.MonadState
+package com.examples.MonadState
 
 
 // example of Timothy Perrett's blog:
@@ -24,7 +24,8 @@ case class Signal(
 
 object Signal {
 
-  import scalaz.State, State._
+  import scalaz.State
+  import scalaz.State._
 
 
   type ->[A, B] = (A, B)
@@ -69,6 +70,7 @@ object Signal {
 object TrafficLightExample extends App {
 
   import Signal._
+
   import scalaz.State.{get => current}
 
   val program = for {
