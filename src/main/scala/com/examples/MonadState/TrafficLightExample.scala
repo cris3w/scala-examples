@@ -39,10 +39,14 @@ object Signal {
 
   def enable: State[Signal, Boolean] =
     for {
-      a <- init
+      a <- init // unnecessary
       _ <- modify((s: Signal) => s.copy(isOperational = true))
       r <- get
-    } yield r.isOperational
+    } yield {
+      println(s"enable>a: $a") // debugging
+      println(s"enable>r: $r") // debugging
+      r.isOperational
+    }
 
 
   def halt  = change(Red -> Solid, Amber -> Off,   Green -> Off)
@@ -53,10 +57,14 @@ object Signal {
 
   private def change(seq: Aspect -> Mode*): State[Signal, Map[Aspect, Mode]] =
     for {
-      m <- init
+      m <- init // unnecessary
       _ <- modify(display(seq))
       signal <- get
-    } yield signal.display
+    } yield {
+      println(s"change>m: $m") // debugging
+      println(s"change>r: $signal") // debugging
+      signal.display
+    }
 
 
   private def display(seq: Seq[Aspect -> Mode]): Signal => Signal = signal =>
