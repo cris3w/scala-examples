@@ -92,6 +92,7 @@ object StackExample extends App {
 
   import MyStackOne._
   import MyStackTwo._
+  import MyStackThree._
 
   val (n1, stack1) = stackManipOne(List(5, 8, 2, 1))
   println(s"Example 1 => elem: $n1, stack: $stack1")
@@ -99,7 +100,7 @@ object StackExample extends App {
   val (stack2, n2) = stackManipTwo(List(5, 8, 2, 1))
   println(s"Example 2 => elem: $n2, stack: $stack2")
 
-  val (stack3, n3) = stackManipTwo(List(5, 8, 2, 1))
+  val (stack3, n3) = stackManipThree(List(5, 8, 2, 1))
   println(s"Example 3 => elem: $n3, stack: $stack3")
 
 }
