@@ -27,16 +27,35 @@
   </pluginRepositories>
 
   <dependencies>
+
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
       <version>${scala.version}</version>
     </dependency>
+
     <dependency>
       <groupId>org.scalaz</groupId>
       <artifactId>scalaz-core_2.13.0-M1</artifactId>
       <version>${scalaz.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.typelevel</groupId>
+      <artifactId>cats-core_2.12</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.typelevel</groupId>
+      <artifactId>cats-effect_2.12</artifactId>
+      <version>1.0.0-RC2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.typelevel</groupId>
+      <artifactId>cats-mtl-core_2.12</artifactId>
+      <version>0.3.0</version>
+    </dependency>
+
   </dependencies>
 
   <build>
