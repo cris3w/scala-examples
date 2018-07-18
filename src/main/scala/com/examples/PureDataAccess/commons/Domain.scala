@@ -1,4 +1,4 @@
-package com.examples.SideEffects.PureDataAccess.commons
+package com.examples.PureDataAccess.commons
 
 
 object Domain {

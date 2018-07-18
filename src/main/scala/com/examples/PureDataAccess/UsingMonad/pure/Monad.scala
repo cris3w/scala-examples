@@ -1,4 +1,4 @@
-package com.examples.SideEffects.PureDataAccess.UsingMonad.pure
+package com.examples.PureDataAccess.UsingMonad.pure
 
 import scalaz.Id.Id
 

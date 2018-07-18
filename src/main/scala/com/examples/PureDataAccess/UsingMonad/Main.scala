@@ -1,10 +1,10 @@
-package com.examples.SideEffects.PureDataAccess.UsingMonad
+package com.examples.PureDataAccess.UsingMonad
 
 import scala.util.Try
 import scalaz.Id.Id
 
-import com.examples.SideEffects.PureDataAccess.commons.Domain._
-import com.examples.SideEffects.PureDataAccess.UsingMonad.impure._
+import com.examples.PureDataAccess.commons.Domain._
+import com.examples.PureDataAccess.UsingMonad.impure._
 
 
 // example based on Juan Manuel Serrano's meetup:
@@ -12,7 +12,7 @@ import com.examples.SideEffects.PureDataAccess.UsingMonad.impure._
 
 
 object Main extends App {
-  import com.examples.SideEffects.PureDataAccess.UsingMonad.pure.Services
+  import com.examples.PureDataAccess.UsingMonad.pure.Services
 
   implicit val _ = IdStore
 

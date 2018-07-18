@@ -1,9 +1,9 @@
-package com.examples.SideEffects.PureDataAccess.UsingMonad.impure
+package com.examples.PureDataAccess.UsingMonad.impure
 
 import scalaz.Id.Id
 
-import com.examples.SideEffects.PureDataAccess.commons.Domain._
-import com.examples.SideEffects.PureDataAccess.UsingMonad.pure._
+import com.examples.PureDataAccess.commons.Domain._
+import com.examples.PureDataAccess.UsingMonad.pure._
 
 
 // data access impl (slick, nosql...)

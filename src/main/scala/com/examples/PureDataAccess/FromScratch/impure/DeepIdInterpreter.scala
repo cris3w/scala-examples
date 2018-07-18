@@ -1,7 +1,7 @@
-package com.examples.SideEffects.PureDataAccess.FromScratch.impure
+package com.examples.PureDataAccess.FromScratch.impure
 
-import com.examples.SideEffects.PureDataAccess.commons.Domain._
-import com.examples.SideEffects.PureDataAccess.FromScratch.pure._
+import com.examples.PureDataAccess.commons.Domain._
+import com.examples.PureDataAccess.FromScratch.pure._
 
 
 object DeepIdInterpreter {

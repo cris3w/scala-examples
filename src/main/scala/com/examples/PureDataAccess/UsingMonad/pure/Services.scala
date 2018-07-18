@@ -1,6 +1,6 @@
-package com.examples.SideEffects.PureDataAccess.UsingMonad.pure
+package com.examples.PureDataAccess.UsingMonad.pure
 
-import com.examples.SideEffects.PureDataAccess.commons.Domain._
+import com.examples.PureDataAccess.commons.Domain._
 
 
 object ServicesWithSomeSugar {

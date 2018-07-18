@@ -1,10 +1,10 @@
-package com.examples.SideEffects.PureDataAccess.FromScratch
+package com.examples.PureDataAccess.FromScratch
 
 import scala.util.Try
 import scalaz.Id.Id
 
-import com.examples.SideEffects.PureDataAccess.commons.Domain._
-import com.examples.SideEffects.PureDataAccess.FromScratch.impure._
+import com.examples.PureDataAccess.commons.Domain._
+import com.examples.PureDataAccess.FromScratch.impure._
 
 
 // example based on Juan Manuel Serrano's meetup:
@@ -12,7 +12,7 @@ import com.examples.SideEffects.PureDataAccess.FromScratch.impure._
 
 
 object Main extends App {
-  import com.examples.SideEffects.PureDataAccess.FromScratch.pure.Services
+  import com.examples.PureDataAccess.FromScratch.pure.Services
 
   implicit val _ = IdStore
 
